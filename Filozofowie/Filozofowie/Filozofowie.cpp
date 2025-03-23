@@ -5,8 +5,8 @@
 #include <chrono>
 #include <random>
 
-const int NUM_PHILOSOPHERS = 5;
-std::mutex forks[NUM_PHILOSOPHERS]; //array of mutex's (is this how you write it?XD) each one is a fork
+int NUM_PHILOSOPHERS;
+std::vector<std::unique_ptr<std::mutex>> forks; //array of mutex's (is this how you write it?XD) each one is a fork
 std::mutex cout_mutex; //one guy talking at a time so stuff will actually make sense
 
 void think(int id) {
@@ -26,12 +26,12 @@ void philosopher(int id) {
 
         //HERE IS THE VERY IMPORTANT PART
         if (id % 2 == 0) { //even dudes pick up the left one first
-            forks[left].lock();
-            forks[right].lock();
+            forks[left]->lock();
+            forks[right]->lock();
         }
         else { //uneven dudes pick up the right one first
-            forks[right].lock();
-            forks[left].lock();
+            forks[right]->lock();
+            forks[left]->lock();
         } //thanks to that we won't have a situation where they all they the left fork
           //and consequently that lead to a deadlock
 
@@ -42,12 +42,26 @@ void philosopher(int id) {
 
         eat(id); //we eat, and when we are done
 
-        forks[left].unlock(); //put the forks down
-        forks[right].unlock();
+        forks[left]->unlock(); //put the forks down
+        forks[right]->unlock();
     }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        std::cerr << "Use: " << argv[0] << " <number_of_philosophers>\n";
+        return 1;
+    }
+    NUM_PHILOSOPHERS = std::atoi(argv[1]);
+    if (NUM_PHILOSOPHERS < 2) {
+        std::cerr << "Number of philosophers has to be at least 2.\n";
+        return 1;
+    }
+
+    for (int i = 0; i < NUM_PHILOSOPHERS; i++) {
+        forks.emplace_back(std::make_unique<std::mutex>());
+    }
+
     std::vector<std::thread> philosophers; //vector of threads
     for (int i = 0; i < NUM_PHILOSOPHERS; i++) {
         philosophers.emplace_back(philosopher, i); //each philosopher gets his own thread

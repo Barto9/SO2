@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{81A54740-4509-4674-A57E-D784E9C175C1}|Filozofowie\\Filozofowie.vcxproj|C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{81A54740-4509-4674-A57E-D784E9C175C1}|Filozofowie\\Filozofowie.vcxproj|solutionrelative:Filozofowie\\Filozofowie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A54740-4509-4674-A57E-D784E9C175C1}|Filozofowie\\Filozofowie.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\XMEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +33,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ViewState": "AQIAAMYCAAAAAAAAAAAtwNUCAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-23T17:10:50.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Filozofowie.cpp",
               "DocumentMoniker": "C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp",
               "RelativeDocumentMoniker": "Filozofowie\\Filozofowie.cpp",
               "ToolTip": "C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp",
               "RelativeToolTip": "Filozofowie\\Filozofowie.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T13:41:34.699Z",
               "EditorCaption": ""
