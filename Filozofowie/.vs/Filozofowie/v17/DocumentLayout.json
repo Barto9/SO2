@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81A54740-4509-4674-A57E-D784E9C175C1}|Filozofowie\\Filozofowie.vcxproj|C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{81A54740-4509-4674-A57E-D784E9C175C1}|Filozofowie\\Filozofowie.vcxproj|solutionrelative:Filozofowie\\Filozofowie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Filozofowie.cpp",
+              "DocumentMoniker": "C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp",
+              "RelativeDocumentMoniker": "Filozofowie\\Filozofowie.cpp",
+              "ToolTip": "C:\\Users\\BGawr\\Documents\\GitHub\\SO2\\Filozofowie\\Filozofowie\\Filozofowie.cpp",
+              "RelativeToolTip": "Filozofowie\\Filozofowie.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-23T13:41:34.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
